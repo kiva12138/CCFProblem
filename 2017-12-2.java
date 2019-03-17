@@ -41,7 +41,7 @@ public class Main {
 					m=0;
 				}
 			}
-    		if(i%k==0 || i%10==0) {
+    		if(i%k==0 || i%10==k) {
     			childs[m].lose = true;
     			n--;
     		}
