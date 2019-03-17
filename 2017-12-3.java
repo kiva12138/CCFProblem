@@ -49,7 +49,6 @@ public class Main {
         }
 
         public static void dfs(int cur, int dis, int current1Len) {
-        	System.out.println(current1Len);
             /**
              * 如果当前路径大于之前找到的最小值，可直接返回
              * */
